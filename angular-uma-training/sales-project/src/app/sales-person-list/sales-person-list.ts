@@ -12,11 +12,17 @@ export class SalesPersonList {
   // create an array of objects
   salesPersonList: SalesPerson[] = [
 
-    new SalesPerson("Anup", "Kumar", "anup.kumar@luv2code.com", 50000) ;
+    new SalesPerson("Anup", "Kumar", "anup.kumar@luv2code.com", 50000),
+    new SalesPerson("Jhon", "Doe", "jdoe@luv2code.com", 40000)
+    
 
   ]
 
   constructor(){}
+
+  ngOnInit(){
+    
+  }
 }
 
 
