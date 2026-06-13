@@ -4,11 +4,12 @@ import { SalesPersonList } from './sales-person-list';
 
 describe('SalesPersonList', () => {
   let component: SalesPersonList;
+  
   let fixture: ComponentFixture<SalesPersonList>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      
+
       imports: [SalesPersonList],
     }).compileComponents();
 
