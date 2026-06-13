@@ -13,6 +13,7 @@ export class SalesPersonList {
   salesPersonList: SalesPerson[] = [
 
     new SalesPerson("Anup", "Kumar", "anup.kumar@luv2code.com", 50000),
+    
     new SalesPerson("Jhon", "Doe", "jdoe@luv2code.com", 40000)
     
 
