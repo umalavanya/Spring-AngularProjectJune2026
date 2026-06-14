@@ -22,5 +22,6 @@ describe('SalesPersonList', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
 });
 
