@@ -4,7 +4,7 @@ import { SalesPersonList } from './sales-person-list';
 
 describe('SalesPersonList', () => {
   let component: SalesPersonList;
-  
+
   let fixture: ComponentFixture<SalesPersonList>;
 
   beforeEach(async () => {
@@ -23,3 +23,4 @@ describe('SalesPersonList', () => {
     expect(component).toBeTruthy();
   });
 });
+
